@@ -1,0 +1,174 @@
+html{
+    background: #0D1A2D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+main{
+    display: grid;
+}
+
+.Container {
+    background: #15273F;
+    box-shadow: -1px 7px 20px #15273F;
+
+    width: 17rem;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-areas: 
+    "a a"
+    "b b"
+    "c c"
+    "d e"
+    "f f"
+    "g g";
+}
+
+.Container ul{
+    display: grid;
+    justify-content: center;
+}
+
+.Logo{
+    grid-area: a;
+    display: grid;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.Logo img{
+    width: 15rem;
+    
+    border-radius: 0.5rem;
+}
+
+.Tilte{
+    grid-area: b;
+    display: grid;
+    justify-content: flex-start;
+    
+    padding-left: 1.1rem;
+    padding-top: 1rem;
+}
+
+.Tilte h1{
+    font-size: 1rem;
+    font-weight: 600;
+
+    color: white;
+}
+
+.Text{
+    grid-area: c;
+}
+
+.Text p {
+    font-size: 0.8rem;
+    font-weight: 400;
+
+    color: #88ACD9;
+    
+    margin: 1rem;
+}
+
+.Icon-ethereum{
+    grid-area: d;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding-left: 1rem;
+}
+
+.Icon-ethereum h3{
+    color: #00FEFC;
+    font-size: 0.8rem;
+    padding-left: 0.5rem;
+
+    -moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.Icon-ethereum h3:hover{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.Icon-clock{
+    grid-area: e;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding-right: 1rem;
+}
+
+.Icon-clock h3{
+    color: #88ACD9;
+
+    font-size: 0.8rem;
+    font-weight: 400;
+
+    padding-left: 0.5rem;
+}
+
+#horizontal-line{
+    grid-area: f;
+    display: grid;
+    justify-self: center;
+
+    width: 15rem;
+    
+    border: 1px solid #2D3F57;
+    
+    margin-top: 1rem;
+}
+
+.Profile{
+    grid-area: g;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding-left: 1rem;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.Profile img{
+    border: 1px solid #fff;
+    border-radius:4rem;
+    width: 1.9rem;
+
+    -moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.Profile img:hover{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.Profile a h4{
+    color: #88ACD9;
+
+    font-size: 0.8rem;
+    font-weight: 300;
+
+    padding-left: 0.5rem;
+}
+
+.Profile a h3{
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.8rem;
+    padding-left: 0.5rem;
+}
